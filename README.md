@@ -31,15 +31,16 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: beepBoop(string)
   * Expected Output: "0123456789"
 
+* Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
+  * Code: const string = ""
+  * Code: beepBoop(string)
+  * Expected Output: "Please enter a number to get a response"
+
 #### Not Passing
 
 <!-- * Test: It receives a text string from a user and coverts it to a integar.
   * Code: 
   * Expected Output: -->
-
-* Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
-  * Code: 
-  * Expected Output:
 
 * Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
   * Code: 
