@@ -22,27 +22,56 @@ This webpage is designed to take a user input and return back specific messages.
 
 ## Specs/Tests
 
-# Passing
+### Describe: 
 
-# Not Passing
+#### Passing
 
-* Test:
+#### Not Passing
+* Test: It recognizes number inputs and ignores all other characters.
 * Code: 
 * Expected Output:
 
-* Test:
+* Test: It receives a text string from a user and coverts it to a integar.
 * Code: 
 * Expected Output:
 
-* Test:
+* Test: It should return a "Hello! This is the start!" string if number 0 is inputted.
 * Code: 
 * Expected Output:
 
-* Test:
+* Test: It should return a "Won't you by my neighbor?" string if number contains a 3.
 * Code: 
 * Expected Output:
 
-* Test:
+* Test: It should return a "Boop" string if number contains a 2.
+* Code: 
+* Expected Output:
+
+* Test: It should return a "Beep" string if number contains a 1.
+* Code: 
+* Expected Output:
+
+* Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
+* Code: 
+* Expected Output:
+
+* Test: It should return a message ("Please enter a number to get a response") to user if input is only empty spaces.
+* Code: 
+* Expected Output:
+
+* Test: It should take a users new input and add the response to a looping array for a new result each time.
+* Code: 
+* Expected Output:
+
+* Test: 
+* Code: 
+* Expected Output:
+
+* Test: 
+* Code: 
+* Expected Output:
+
+* Test: 
 * Code: 
 * Expected Output:
 
