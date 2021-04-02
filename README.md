@@ -16,7 +16,7 @@ This webpage is designed to take a user input and return back specific messages.
 
 ## Setup/Installation Requirements
 
-* Clone from GitHub: $ git clone https://github.com/CristinaPlesa/neighborhood
+* Clone from GitHub: `$ git clone https://github.com/CristinaPlesa/neighborhood`
 * Navigate to the top level of the directory.
 * Open index.html in your browser
 
@@ -27,69 +27,66 @@ This webpage is designed to take a user input and return back specific messages.
 #### Passing
 
 #### Not Passing
-* Test: It recognizes number inputs and ignores all other characters.
-* Code: 
-* Expected Output:
 
-* Test: It receives a text string from a user and coverts it to a integar.
-* Code: 
-* Expected Output:
+Test: It recognizes number inputs and ignores all other characters. <br>
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
-* Code: 
-* Expected Output:
+Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with "Won't you by my neighbor?" string if number contains a 3.
-* Code: 
-* Expected Output:
+Test: It receives a text string from a user and coverts it to a integar.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with "Boop" string if number contains a 2.
-* Code: 
-* Expected Output:
+Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with "Beep" string if number contains a 1.
-* Code: 
-* Expected Output:
+Test: It should return an array with "Won't you by my neighbor?" string if number contains a 3.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with 4 if the number 4 is inputted.
-* Code: 
-* Expected Output:
+Test: It should return an array with "Boop" string if number contains a 2, but not a 3.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with 5 if the number 5 is inputted.
-* Code: 
-* Expected Output:
+Test: It should return an array with "Beep" string if number contains a 1, but not a 3 or 2.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with 6 if the number 6 is inputted.
-* Code: 
-* Expected Output:
+Test: It should return an array with 4 if the number 4 is inputted.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with 7 if the number 7 is inputted.
-* Code: 
-* Expected Output:
+Test: It should return an array with 5 if the number 5 is inputted.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with 8 if the number 8 is inputted.
-* Code: 
-* Expected Output:
+Test: It should return an array with 6 if the number 6 is inputted.
+  Code: 
+    Expected Output:
 
-* Test: It should return an array with 9 if the number 9 is inputted.
-* Code: 
-* Expected Output:
+Test: It should return an array with 7 if the number 7 is inputted.
+  Code: 
+    Expected Output:
 
-* Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
-* Code: 
-* Expected Output:
+Test: It should return an array with 8 if the number 8 is inputted.
+  Code: 
+    Expected Output:
 
-* Test: It should return a message ("Please enter a number to get a response") to user if input is only empty spaces.
-* Code: 
-* Expected Output:
+Test: It should return an array with 9 if the number 9 is inputted.
+  Code: 
+    Expected Output:
 
-* Test: It should take a users new input and add the response to a looping array for a new result each time.
-* Code: 
-* Expected Output:
+Test: It should take a users new input and add the response to a looping array for a new result each time.
+Code: 
+Expected Output:
 
-* Test: 
-* Code: 
-* Expected Output:
+Test: 
+Code: 
+Expected Output:
 
 ## Known Bugs
 
