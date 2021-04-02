@@ -12,7 +12,10 @@ function beepBoop(text) {
     for(let index = 0; index < text.length; index +=1) {
       return "Won't you be my neighbor"
     }
-  if (text ===)
+  if (text === "2")
+    for(let index = 0; index < text.length; index +=1) {
+      return "Boop"
+    }
   const justNumbers = text.replace(/[\D]/g, "");
   return justNumbers;
 }
