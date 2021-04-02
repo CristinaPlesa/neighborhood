@@ -26,15 +26,16 @@ This webpage is designed to take a user input and return back specific messages.
 
 #### Passing
 
-#### Not Passing
-
 * Test: It ignores spaces and non-number characters from user input.
-  * Code: beepBoop("01234 blah 567 blah!!* 89")
+  * Code: const string = "01234 blah 567 blah!!* 89"
+  * Code: beepBoop(string)
   * Expected Output: "0123456789"
 
-* Test: It receives a text string from a user and coverts it to a integar.
+#### Not Passing
+
+<!-- * Test: It receives a text string from a user and coverts it to a integar.
   * Code: 
-  * Expected Output:
+  * Expected Output: -->
 
 * Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
   * Code: 
