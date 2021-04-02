@@ -28,7 +28,7 @@ This webpage is designed to take a user input and return back specific messages.
 
 #### Not Passing
 
-* Test: It ignores spaces from user input.
+* Test: It ignores spaces and non-number characters from user input.
   * Code: beepBoop("01234 blah 567 blah!!* 89")
   * Expected Output: "0123456789"
 
