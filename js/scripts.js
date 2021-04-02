@@ -8,6 +8,11 @@ function beepBoop(text) {
     for(let index = 0; index < text.length; index +=1) {
       return "Hello, this is the start!"
     }
+  if (text === "3")
+    for(let index = 0; index < text.length; index +=1) {
+      return "Won't you be my neighbor"
+    }
+  if (text ===)
   const justNumbers = text.replace(/[\D]/g, "");
   return justNumbers;
 }
