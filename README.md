@@ -22,7 +22,7 @@ This webpage is designed to take a user input and return back specific messages.
 
 ## Specs/Tests
 
-### Describe: 
+### Describe: beepBoop(number)
 
 #### Passing
 
@@ -35,19 +35,43 @@ This webpage is designed to take a user input and return back specific messages.
 * Code: 
 * Expected Output:
 
-* Test: It should return a "Hello! This is the start!" string if number 0 is inputted.
+* Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
 * Code: 
 * Expected Output:
 
-* Test: It should return a "Won't you by my neighbor?" string if number contains a 3.
+* Test: It should return an array with "Won't you by my neighbor?" string if number contains a 3.
 * Code: 
 * Expected Output:
 
-* Test: It should return a "Boop" string if number contains a 2.
+* Test: It should return an array with "Boop" string if number contains a 2.
 * Code: 
 * Expected Output:
 
-* Test: It should return a "Beep" string if number contains a 1.
+* Test: It should return an array with "Beep" string if number contains a 1.
+* Code: 
+* Expected Output:
+
+* Test: It should return an array with 4 if the number 4 is inputted.
+* Code: 
+* Expected Output:
+
+* Test: It should return an array with 5 if the number 5 is inputted.
+* Code: 
+* Expected Output:
+
+* Test: It should return an array with 6 if the number 6 is inputted.
+* Code: 
+* Expected Output:
+
+* Test: It should return an array with 7 if the number 7 is inputted.
+* Code: 
+* Expected Output:
+
+* Test: It should return an array with 8 if the number 8 is inputted.
+* Code: 
+* Expected Output:
+
+* Test: It should return an array with 9 if the number 9 is inputted.
 * Code: 
 * Expected Output:
 
@@ -60,14 +84,6 @@ This webpage is designed to take a user input and return back specific messages.
 * Expected Output:
 
 * Test: It should take a users new input and add the response to a looping array for a new result each time.
-* Code: 
-* Expected Output:
-
-* Test: 
-* Code: 
-* Expected Output:
-
-* Test: 
 * Code: 
 * Expected Output:
 
