@@ -1,7 +1,7 @@
 //Business Logic
 
 function beepBoop(text) {
-  if (text.length === 0) {
+  if (text.trim().length === 0) {
     return "Please enter a number to get a response";
   }
   const justNumbers = text.replace(/[\D]/g, "");
