@@ -1,5 +1,11 @@
 //Business Logic
 
-function beepBoop(number) {
-  const numberResult = number.replace(/\D/g, "");
+function beepBoop(text) {
+  return text.trim(" ").length;
 }
+
+// function beepBoop() {
+//   userInput = userInput.replace (/\D/g, "");
+// }
+
+// return parseInt(text, [0-9])

@@ -28,13 +28,13 @@ This webpage is designed to take a user input and return back specific messages.
 
 #### Not Passing
 
+* Test: It ignores spaces from user input.
+  * Code: beepBoop("01234 blah 567 blah!!* 89")
+  * Expected Output: "0123456789"
+
 * Test: It receives a text string from a user and coverts it to a integar.
   * Code: 
   * Expected Output:
-
-* Test: It recognizes number inputs and ignores all other characters.
-  * Code: number = "01234blah567blah!!*89"
-  * Expected Output: "0123456789"
 
 * Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
   * Code: 
