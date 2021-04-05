@@ -56,11 +56,11 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: userInputExceptions("1111567 hello there!")
   * Expected Output: "Beep"
 
-#### Not Passing
-
 * Test: It receives a text string from a user and coverts it to a integar.
-  * Code: 
-  * Expected Output:
+  * Code: initialInputRestrictions("heloo how are you 67959474")
+  * Expected Output: 67959474
+
+#### Not Passing
 
 * Test: It should take a users input and loop through the number displayed in the form of an array.
   * Code:

@@ -5,7 +5,8 @@ function initialInputRestrictions(string) {
     return "Please enter a number to get a response";
   }
   const justIntegars = string.replace(/[\D]/g, "");
-  return justIntegars;
+  const numbers = parseInt(justIntegars);
+  return numbers;
 }
 
 function beepBoop(text) {
