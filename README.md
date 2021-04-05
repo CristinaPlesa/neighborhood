@@ -52,6 +52,10 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: serInputExceptions("222567the hello")
   * Expected Output: "Boop"
 
+* Test: It should return an array with "Beep" string if number contains a 1, but not a 3 or 2.
+  * Code: userInputExceptions("1111567 hello there!")
+  * Expected Output: "Beep"
+
 #### Not Passing
 
 <!-- * Test: It receives a text string from a user and coverts it to a integar.
@@ -60,10 +64,6 @@ This webpage is designed to take a user input and return back specific messages.
 
 * Test: It should take a users input and loop through the number displayed in the form of an array.
   * Code:
-  * Expected Output:
-
-* Test: It should return an array with "Beep" string if number contains a 1, but not a 3 or 2.
-  * Code: 
   * Expected Output:
 
 * Test: It should return an array with 4 if the number 4 is inputted.

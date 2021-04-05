@@ -26,6 +26,9 @@ function userInputExceptions(text) {
   if (text.includes("2")) {
     return "Boop"
   }
+  if (text.includes("1")) {
+    return "Beep"
+  }
 }
 
 
