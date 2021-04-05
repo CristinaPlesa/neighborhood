@@ -42,6 +42,14 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: 
   * Expected Output: -->
 
+* Test: It should take the users input and push the results into an empty array.
+  * Code: 
+  * Expected Output:
+
+* Test: It should take a users input and loop through the number displayed in the form of an array.
+  * Code: 
+  * Expected Output:
+
 * Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
   * Code: 
   * Expected Output:
@@ -79,10 +87,6 @@ This webpage is designed to take a user input and return back specific messages.
   * Expected Output:
 
 * Test: It should return an array with 9 if the number 9 is inputted.
-  * Code: 
-  * Expected Output:
-
-* Test: It should take a users new input and add the response to a looping array for a new result each time.
   * Code: 
   * Expected Output:
 
