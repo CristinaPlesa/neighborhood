@@ -64,10 +64,14 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: initialInputRestrictions("5")
   * Expected Output: (5) [Array(1), Array(1), Array(1), Array(1), Array(1)]
 
+* Test: Turn number back into string so output becomes string again.
+  * Code: initialInputRestrictions("5")
+  * Expected Output: (5) ["0", "1", "2", "3", "4"]
+
 #### Not Passing
 
-* Test: Turn number back into string, so last function can output back out strings.
-  * Code: 
+* Test: Connect last function back to beepBoop, so exceptions go into effect.
+  * Code:
   * Expected Output:
 
 ## Known Bugs
