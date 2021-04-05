@@ -66,30 +66,6 @@ This webpage is designed to take a user input and return back specific messages.
   * Code:
   * Expected Output:
 
-* Test: It should return an array with 4 if the number 4 is inputted.
-  * Code: 
-  * Expected Output:
-
-* Test: It should return an array with 5 if the number 5 is inputted.
-  * Code: 
-  * Expected Output:
-
-* Test: It should return an array with 6 if the number 6 is inputted.
-  * Code: 
-  * Expected Output:
-
-* Test: It should return an array with 7 if the number 7 is inputted.
-  * Code: 
-  * Expected Output:
-
-* Test: It should return an array with 8 if the number 8 is inputted.
-  * Code: 
-  * Expected Output:
-
-* Test: It should return an array with 9 if the number 9 is inputted.
-  * Code: 
-  * Expected Output:
-
 * Test: 
   * Code: 
   * Expected Output:
