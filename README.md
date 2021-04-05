@@ -22,18 +22,18 @@ This webpage is designed to take a user input and return back specific messages.
 
 ## Specs/Tests
 
-### Describe: initialInputRestrictions(text), userInput(text), beepBoop(text)
+### Describe: initialInputRestrictions(string), beepBoop(text), userInputExceptions(string)
 
 #### Passing
 
 * Test: It ignores spaces and non-number characters from user input.
-  * Code: const string = "01234 blah 567 blah!!* 89"
-  * Code: initialInputRestrictions(string)
+  * Code: const strings = "01234 blah 567 blah!!* 89"
+  * Code: initialInputRestrictions(strings)
   * Expected Output: "0123456789"
 
 * Test: It should return a message ("Please enter a number to get a response") to user if input is empty string.
-  * Code: const string = ""
-  * Code: initialInputRestrictions(string)
+  * Code: const noString = ""
+  * Code: initialInputRestrictions(noString)
   * Expected Output: "Please enter a number to get a response"
 
 * Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
@@ -58,9 +58,9 @@ This webpage is designed to take a user input and return back specific messages.
 
 #### Not Passing
 
-<!-- * Test: It receives a text string from a user and coverts it to a integar.
+* Test: It receives a text string from a user and coverts it to a integar.
   * Code: 
-  * Expected Output: -->
+  * Expected Output:
 
 * Test: It should take a users input and loop through the number displayed in the form of an array.
   * Code:

@@ -1,11 +1,11 @@
 //Business Logic
 
-function initialInputRestrictions(text) {
-  if (text.trim().length === 0) {
+function initialInputRestrictions(string) {
+  if (string.trim().length === 0) {
     return "Please enter a number to get a response";
   }
-  const justNumbers = text.replace(/[\D]/g, "");
-  return justNumbers;
+  const justIntegars = string.replace(/[\D]/g, "");
+  return justIntegars;
 }
 
 function beepBoop(text) {
@@ -16,17 +16,17 @@ function beepBoop(text) {
   return outputArray;
 }
 
-function userInputExceptions(text) {
-  if (text === "0") {
+function userInputExceptions(string) {
+  if (string === "0") {
     return "Hello, this is the start!";
   }
-  if (text.includes("3")) {
+  if (string.includes("3")) {
     return "Won't you be my neighbor";
   }
-  if (text.includes("2")) {
+  if (string.includes("2")) {
     return "Boop"
   }
-  if (text.includes("1")) {
+  if (string.includes("1")) {
     return "Beep"
   }
 }
