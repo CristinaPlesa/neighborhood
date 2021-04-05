@@ -11,7 +11,7 @@ function initialInputRestrictions(text) {
 function beepBoop(text) {
   const outputArray = []
   for (let index = 0; index < text.length; index +=1) {
-    outputArray.push(beepBoop(index));
+    outputArray.push(text[index]);
   }
   return outputArray;
 }
