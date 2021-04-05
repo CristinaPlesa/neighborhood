@@ -37,12 +37,16 @@ This webpage is designed to take a user input and return back specific messages.
   * Expected Output: "Please enter a number to get a response"
 
 * Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
-  * Code: userInput("0")
+  * Code: userInputExceptions("0")
   * Expected Output: "Hello, this is the start!"
 
 * Test: It should take the users input and push the results into an empty array.
   * Code: beepBoop("01234 blah 567 blah!!* 89")
   * Expected Output: "0", "1", "2", "3", "4", " ", "b", "l", "a", "h", " ", "5", "6", "7", " ", "b", "l", "a", "h", "!", "!", "*", " ", "8", "9"
+
+* Test: It should return an array with "Won't you by my neighbor?" string if number contains a 3.
+  * Code: userInputExceptions("123 hello0 456")
+  * Expected Output: "Won't you be my neighbor"
 
 #### Not Passing
 
@@ -52,10 +56,6 @@ This webpage is designed to take a user input and return back specific messages.
 
 * Test: It should take a users input and loop through the number displayed in the form of an array.
   * Code:
-  * Expected Output:
-
-* Test: It should return an array with "Won't you by my neighbor?" string if number contains a 3.
-  * Code: 
   * Expected Output:
 
 * Test: It should return an array with "Boop" string if number contains a 2, but not a 3.

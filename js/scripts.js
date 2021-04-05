@@ -16,21 +16,19 @@ function beepBoop(text) {
   return outputArray;
 }
 
-function userInput(text) {
+function userInputExceptions(text) {
   if (text === "0") {
-    return "Hello, this is the start!"
+    return "Hello, this is the start!";
+  }
+  if (text.includes("3")) {
+    return "Won't you be my neighbor";
   }
 }
 //I want zero and only zero to always return "Hello, this is the start!"
 
 
 
-// for(let index = 0; index < text.length; index +=1)
 
-
-// if (text === "3") {
-//   return "Won't you be my neighbor"
-// }
 // if (text === "2") {
 //   return "Boop"
 // }
