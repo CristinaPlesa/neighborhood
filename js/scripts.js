@@ -5,14 +5,14 @@ function initialInputRestrictions(string) {
     return "Please enter a number to get a response";
   }
   const justIntegars = string.replace(/[\D]/g, "");
-  const numbers = parseInt(justIntegars);
-  return numbers;
+  const number = parseInt(justIntegars);
+  return beepBoop(number);
 }
 
-function beepBoop(text) {
+function beepBoop(numbers) {
   const outputArray = []
-  for (let index = 0; index < text.length; index +=1) {
-    outputArray.push(text[index]);
+  for (let index = 0; index < numbers.length; index +=1) {
+    outputArray.push(numbers);
   }
   return outputArray;
 }
