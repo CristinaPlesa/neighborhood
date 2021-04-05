@@ -60,13 +60,13 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: initialInputRestrictions("heloo how are you 67959474")
   * Expected Output: 67959474
 
+* Test: It should take a users input and loop through the number displayed in the form of an array.
+  * Code: initialInputRestrictions("5")
+  * Expected Output: (5) [Array(1), Array(1), Array(1), Array(1), Array(1)]
+
 #### Not Passing
 
-* Test: It should take a users input and loop through the number displayed in the form of an array.
-  * Code:
-  * Expected Output:
-
-* Test: 
+* Test: Turn number back into string, so last function can output back out strings.
   * Code: 
   * Expected Output:
 
