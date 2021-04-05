@@ -48,6 +48,10 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: userInputExceptions("123 hello0 456")
   * Expected Output: "Won't you be my neighbor"
 
+* Test: It should return an array with "Boop" string if number contains a 2, but not a 3.
+  * Code: serInputExceptions("222567the hello")
+  * Expected Output: "Boop"
+
 #### Not Passing
 
 <!-- * Test: It receives a text string from a user and coverts it to a integar.
@@ -56,10 +60,6 @@ This webpage is designed to take a user input and return back specific messages.
 
 * Test: It should take a users input and loop through the number displayed in the form of an array.
   * Code:
-  * Expected Output:
-
-* Test: It should return an array with "Boop" string if number contains a 2, but not a 3.
-  * Code: 
   * Expected Output:
 
 * Test: It should return an array with "Beep" string if number contains a 1, but not a 3 or 2.
