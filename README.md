@@ -22,7 +22,7 @@ This webpage is designed to take a user input and return back specific messages.
 
 ## Specs/Tests
 
-### Describe: beepBoop(number)
+### Describe: initialInputRestrictions(text), userInput(text), beepBoop(text)
 
 #### Passing
 

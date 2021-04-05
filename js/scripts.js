@@ -8,6 +8,14 @@ function initialInputRestrictions(text) {
   return justNumbers;
 }
 
+function beepBoop(text) {
+  const outputArray = []
+  for (let index = 0; index < text.length; index +=1) {
+    outputArray.push(beepBoop(index));
+  }
+  return outputArray;
+}
+
 function userInput(text) {
   if (text === "0") {
     return "Hello, this is the start!"
