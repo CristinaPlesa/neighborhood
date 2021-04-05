@@ -31,8 +31,5 @@ function userInputExceptions(string) {
   if (string.includes("1")) {
     return "Beep"
   }
+  else return string;
 }
-
-
-// I also want the function to loop through each number up to the input, parseInt is needed to turn the string into number.
-// return parseInt(text, [0-9])

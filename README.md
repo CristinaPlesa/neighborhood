@@ -68,11 +68,9 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: initialInputRestrictions("5")
   * Expected Output: (5) ["0", "1", "2", "3", "4"]
 
-#### Not Passing
-
 * Test: Connect last function back to beepBoop, so exceptions go into effect.
-  * Code:
-  * Expected Output:
+  * Code: initialInputRestrictions("32")
+  * Expected Output: (32) ["Hello, this is the start!", "Beep", "Boop", "Won't you be my neighbor", "4", "5", "6", "7", "8", "9", "Beep", "Beep", "Boop", "Won't you be my neighbor", "Beep", "Beep", "Beep", "Beep", "Beep", "Beep", "Boop", "Boop", "Boop", "Won't you be my neighbor", "Boop", "Boop", "Boop", "Boop", "Boop", "Boop", "Won't you be my neighbor", "Won't you be my neighbor"]
 
 ## Known Bugs
 
