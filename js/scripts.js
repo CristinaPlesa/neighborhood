@@ -12,7 +12,8 @@ function initialInputRestrictions(string) {
 function beepBoop(numbers) {
   const outputArray = []
   for (let index = 0; index < numbers; index +=1) {
-    outputArray.push([index].toString());
+    const backToString = userInputExceptions(index.toString());
+    outputArray.push(backToString);
   }
   return outputArray;
 }
