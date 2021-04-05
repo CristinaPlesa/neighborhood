@@ -8,9 +8,10 @@ function initialInputRestrictions(text) {
   return justNumbers;
 }
 
-function 
-if (justNumbers === "0") {
-  return "Hello, this is the start!"
+function userInput(text) {
+  if (text === "0") {
+    return "Hello, this is the start!"
+  }
 }
 //I want zero and only zero to always return "Hello, this is the start!"
 

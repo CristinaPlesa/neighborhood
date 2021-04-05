@@ -36,6 +36,10 @@ This webpage is designed to take a user input and return back specific messages.
   * Code: beepBoop(string)
   * Expected Output: "Please enter a number to get a response"
 
+* Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
+  * Code: userInput("0")
+  * Expected Output: "Hello, this is the start!"
+
 #### Not Passing
 
 <!-- * Test: It receives a text string from a user and coverts it to a integar.
@@ -47,10 +51,6 @@ This webpage is designed to take a user input and return back specific messages.
   * Expected Output:
 
 * Test: It should take a users input and loop through the number displayed in the form of an array.
-  * Code: 
-  * Expected Output:
-
-* Test: It should return an array with "Hello! This is the start!" string if number 0 is inputted.
   * Code: 
   * Expected Output:
 
