@@ -38,9 +38,10 @@ $(document).ready(function() {
   $("#numberResult").submit(function(event) {
     const userInput = $("#numberInput").val();
     const output = initialInputRestrictions(userInput);
+    $("#outputResults").empty();
     output.forEach(function(item) {
-      $("#outputResults").append( `<li>${item}</li>`);
-    })
+      $("#outputResults").append(`<li>${item}</li>`);
+    });
     event.preventDefault();
   });
 });
