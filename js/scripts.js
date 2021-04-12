@@ -1,17 +1,17 @@
 //Business Logic
 
 function initialInputRestrictions(string) {
-  if (string.trim().length === 0) {
+  const justIntegers = string.replace(/[\D]/g, "");
+  if (justIntegers.length === 0) {
     return "Please enter a number to get a response";
   }
-  const justIntegars = string.replace(/[\D]/g, "");
-  const number = parseInt(justIntegars);
+  const number = parseInt(justIntegers);
   return beepBoop(number);
 }
 
 function beepBoop(numbers) {
   const outputArray = []
-  for (let index = 0; index < numbers; index +=1) {
+  for (let index = 0; index <= numbers; index +=1) {
     const backToString = userInputExceptions(index.toString());
     outputArray.push(backToString);
   }
@@ -33,3 +33,9 @@ function userInputExceptions(string) {
   }
   else return string;
 }
+
+// User Logic
+$(document).ready(function(event) {
+  event.preventDefault();
+
+});
