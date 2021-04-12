@@ -1,5 +1,4 @@
 //Business Logic
-
 function initialInputRestrictions(string) {
   const justIntegers = string.replace(/[\D]/g, "");
   if (justIntegers.length === 0) {
@@ -35,7 +34,13 @@ function userInputExceptions(string) {
 }
 
 // User Logic
-$(document).ready(function(event) {
-  event.preventDefault();
-
+$(document).ready(function() {
+  $("#numberResult").submit(function(event) {
+    const userInput = $("#numberInput").val();
+    const output = initialInputRestrictions(userInput);
+    output.forEach(function(item) {
+      $("#outputResults").append( `<li>${item}</li>`);
+    })
+    event.preventDefault();
+  });
 });
